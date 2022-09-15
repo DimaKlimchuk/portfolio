@@ -8,7 +8,7 @@
 
 :root{
     --color-primary: #191d2b;
-    --color-secondary: #1988b4;
+    --color-secondary: #14d314;
     --color-white: #FFF;
     --color-black: #000;
     --color-grey0: #f8f8f8;
@@ -23,7 +23,7 @@
 }
 .light-mode{
     --color-primary: #fff;
-    --color-secondary: #9520b2;
+    --color-secondary: #2811aa;
     --color-white: #454e56;
     --color-black: #000;
     --color-grey0: #f8f8f8;
@@ -31,7 +31,7 @@
     --color-grey-2: #6c7983;
     --color-grey-3: #6c7983;
     --color-grey-4: #454e56;
-    --color-grey-5: #f8f8f8;
+    --color-grey-5: #cfcccc;
     --color-grey-6: #12181b;
 }
 
@@ -177,7 +177,7 @@ section{
 .header-content{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    min-height: 100%;
+    min-height: 100vh;
     .left-header{
         display: flex;
         align-items: center;
@@ -501,17 +501,6 @@ section{
         span{
             color: var(--color-secondary);
         }
-        .bg-text{
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            color: var(--color-grey-5);
-            transition: all .4s ease-in-out;
-            z-index: -1;
-            transform: translate(-50%, -50%);
-            font-weight: 800;
-            font-size: 6.3rem;
-        }
     }
 }
 /*----------------------CONTACT SECTION---------------------*/
@@ -608,8 +597,14 @@ section{
             }
         }
         .submit-btn{
+            border: none;
+            background-color: inherit;
             display: flex;
             justify-content: flex-start;
+            a{
+                color: var(--color-white);
+            }
+
         }
     }
   }
