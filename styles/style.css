@@ -7,7 +7,7 @@
 
 :root {
   --color-primary: #191d2b;
-  --color-secondary: #14d314;
+  --color-secondary: #148ad3;
   --color-white: #FFF;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -23,15 +23,15 @@
 
 .light-mode {
   --color-primary: #fff;
-  --color-secondary: #2811aa;
-  --color-white: #454e56;
+  --color-secondary: #d4e029;
+  --color-white: #616467;
   --color-black: #000;
   --color-grey0: #f8f8f8;
   --color-grey-1: #6c7983;
-  --color-grey-2: #6c7983;
+  --color-grey-2: #bdc2c7;
   --color-grey-3: #6c7983;
   --color-grey-4: #454e56;
-  --color-grey-5: #cfcccc;
+  --color-grey-5: #e5e1e1;
   --color-grey-6: #12181b;
 }
 
@@ -755,7 +755,7 @@ section {
     font-size: 4rem;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .portfolios {
     grid-template-columns: 1fr;
   }
